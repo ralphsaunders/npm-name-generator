@@ -1,0 +1,22 @@
+{
+  "name": "npm-name-generator",
+  "version": "0.0.0",
+  "description": "Generates Names for NPM Packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ralphsaunders/npm-name-generator.git"
+  },
+  "keywords": [
+    "lulz"
+  ],
+  "author": "Ralph Saunders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralphsaunders/npm-name-generator/issues"
+  },
+  "homepage": "https://github.com/ralphsaunders/npm-name-generator"
+}
