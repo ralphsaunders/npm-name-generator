@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ralphsaunders/npm-name-generator/issues"
   },
-  "homepage": "https://github.com/ralphsaunders/npm-name-generator"
+  "homepage": "https://github.com/ralphsaunders/npm-name-generator",
+  "devDependencies": {
+    "express": "~4.11.1"
+  }
 }
