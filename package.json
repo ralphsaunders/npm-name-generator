@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/ralphsaunders/npm-name-generator",
   "devDependencies": {
-    "express": "~4.11.1"
-  }
+    "body-parser": "^1.10.2",
+    "express": "~4.11.1",
+    "express-handlebars": "^1.1.0"
+  },
+  "dependencies": {}
 }
