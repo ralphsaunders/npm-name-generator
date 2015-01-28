@@ -1,6 +1,7 @@
 var express = require('express'),
     exphbs = require('express-handlebars'),
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser'),
+    loot = require('./loot');
 
 var app = express();
 
@@ -11,7 +12,7 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 app.get('/', function(req, res) {
-    res.status(200).render('index', {adjective: 'loud', noun: 'sausage'});
+    res.status(200).render('index', {adjective: loot.adjective, noun: loot.noun});
 });
 
 var server = app.listen(3000, function() {
