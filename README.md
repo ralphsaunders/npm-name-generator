@@ -8,9 +8,11 @@ Inspired by the [npm index](https://www.npmjs.com/browse/depended)
 
 1. Clone the repository
 2. Run `npm install` to install the required dependencies
-3. Install `gulp` globally with `-g`
-4. Run `gulp css`
-5. Open [http://localhost:3000](http://localhost:3000)
+3. Run `npm install gulp -g` to install gulp globally
+4. Run `npm install nodemon -g` to install nodemon globally
+5. Run `gulp css` to build the stylus files
+6. Run `nodemon index.js` to run the node application
+7. Open [http://localhost:3000](http://localhost:3000)
 
 ## Extending Loot.js
 
